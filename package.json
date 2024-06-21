@@ -1,0 +1,39 @@
+{
+  "author": "TurboIgnited",
+  "bugs": {
+    "url": "https://github.com/turboignited/fbinstant-phaser-typescript/issues"
+  },
+  "dependencies": {
+    "phaser": "^3.9.0"
+  },
+  "description": "Phaser 3 with Facebook Instant Games using TypeScript",
+  "devDependencies": {
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "homepage": "https://github.com/turboignited/fbinstant-phaser-typescript#readme",
+  "keywords": [
+    "Facebook",
+    "Instant",
+    "Games",
+    "Phaser",
+    "3",
+    "TypeScript"
+  ],
+  "license": "ISC",
+  "name": "fbinstant-phaser-typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turboignited/fbinstant-phaser-typescript.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "version": "0.0.4"
+}
